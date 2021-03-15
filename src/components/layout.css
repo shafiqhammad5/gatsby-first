@@ -118,7 +118,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -590,6 +589,34 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.logo img {
+  max-width: 120px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  margin: 0;
+}
+.menu li a {
+  margin-left: 30px;
+  display: block;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

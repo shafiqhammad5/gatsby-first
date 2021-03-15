@@ -1,0 +1,47 @@
+
+.title {
+  max-width: 650px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.form {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px 20px;
+  margin: 0 auto 50px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  resize: none;
+  outline: none;
+  transition: all 0.3;
+}
+.form input:focus,
+.form textarea :focus {
+  border-color: black;
+}
+
+.form button {
+  background: black;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.3;
+}
+
+.form button:hover {
+  opacity: .9;
+}
